@@ -4,8 +4,16 @@
     "stub": true,
     "chmod": "0755",
     "compression": "GZ",
-    "directories": ["src"],
-    "files": ["vendor/autoload.php"],
-    "exclude-composer-files": true,
-    "blacklist": ["deployer.phar"]
+    "blacklist": [
+        "deployer.phar"
+    ],
+    "files": [
+        "vendor/autoload.php"
+    ],
+    "directories": [
+        "src",
+        "vendor"
+    ],
+    "exclude-composer-files": false,
+    "exclude-dev-files": true
 }
