@@ -12,13 +12,23 @@ Features:
 Ideal for server environments, or manual deployments.
 
 ---
+Certainly! Here's the updated **Installation** section for your `README.md`, including both `wget` and `curl` options:
+
+---
 
 ## Installation
 
-Download the latest release:
+Download the latest release using either `wget` or `curl`:
 
+### Using `wget`
 ```bash
 wget https://github.com/wesamly/github-deploy-cli/releases/latest/download/deployer.phar
+chmod +x deployer.phar
+```
+
+### Using `curl`
+```bash
+curl -L -o deployer.phar https://github.com/wesamly/github-deploy-cli/releases/latest/download/deployer.phar
 chmod +x deployer.phar
 ```
 
