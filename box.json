@@ -1,0 +1,11 @@
+{
+    "main": "deploy.php",
+    "output": "deployer.phar",
+    "stub": true,
+    "chmod": "0755",
+    "compression": "GZ",
+    "directories": ["src"],
+    "files": ["vendor/autoload.php"],
+    "exclude-composer-files": true,
+    "blacklist": ["deployer.phar"]
+}
