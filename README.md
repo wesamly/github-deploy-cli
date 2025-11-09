@@ -12,9 +12,6 @@ Features:
 Ideal for server environments, or manual deployments.
 
 ---
-Certainly! Here's the updated **Installation** section for your `README.md`, including both `wget` and `curl` options:
-
----
 
 ## Installation
 
